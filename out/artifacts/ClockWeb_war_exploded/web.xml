@@ -1,0 +1,21 @@
+<web-app xmlns="http://java.sun.com/xml/ns/javaee" version="2.5">
+    <servlet>
+        <servlet-name>ClockServlet</servlet-name>
+        <servlet-class>com.gmail.liliyayalovchenko.ClockServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>ClockServlet</servlet-name>
+        <url-pattern>/clock</url-pattern>
+    </servlet-mapping>
+    <servlet>
+        <servlet-name>Hello</servlet-name>
+        <servlet-class>com.gmail.liliyayalovchenko.HelloServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>Hello</servlet-name>
+        <url-pattern>/hello</url-pattern>
+    </servlet-mapping>
+    <welcome-file-list>
+        <welcome-file>headers.jsp</welcome-file>
+    </welcome-file-list>
+</web-app>
